@@ -4,8 +4,8 @@
     <version>${project.version}</version>
   </project>  
 	<defaultLocation>
-		<name>Pennsic War</name>
-		<location>405835N 0800809W</location>	
+		<name>Екатеринбург</name>
+		<location>565018N 0603612E</location>	
 	</defaultLocation>	
 	<astrolabes>
 		<astrolabe>

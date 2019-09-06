@@ -51,11 +51,11 @@ public class Astrolabe {
     public static final String[] SYMBOLLETTERS = { "A", "B", "C", "D", "E", "F", "G", "H", "I", "K", "L", "M",
             "N", "O", "P", "Q", "R", "S", "T", "V", "X", "Y", "Z" };
 
-    public static final String[] ZODIAC = { "Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra",
-            "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces" };
+    public static final String[] ZODIAC = { "Овен", "Телец", "Близнецы", "Рак", "Лев", "Дева", "Весы",
+            "Скорпион", "Стрелец", "Козерог", "Водолей", "Рыбы" };
 
-    public static final String[] MONTHS = { "January", "February", "March", "April", "May",
-            "June", "July", "August", "September", "October", "November", "December" };
+    public static final String[] MONTHS = { "Январь", "Февраль", "Март", "Апрель", "Май",
+            "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь" };
 
     public static final int[] MONTHSDAYS = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 

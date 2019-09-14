@@ -4,7 +4,7 @@
     <version>${project.version}</version>
   </project>  
 	<defaultLocation>
-		<name>Екатеринбург</name>
+		<name>Yekaterinburg</name>
 		<location>565018N 0603612E</location>	
 	</defaultLocation>	
 	<astrolabes>

@@ -50,7 +50,7 @@ public class Star {
      */
     public static Star[] getStarsList(String hemiSphere){
 
-        Star[] starsList = new Star[17];
+        Star[] starsList = new Star[20];
 
         if (hemiSphere.equals("S")){
             // show southern star set - Note Declination is reversed for the southern projection
@@ -71,6 +71,9 @@ public class Star {
             starsList[14] = new Star("Spica",13.41986111,-11.16138889,0,0,0,0,80,-40,0);
             starsList[15] = new Star("Aliphard",9.459788889,-8.658602778,125,95,120,80,110,79,30);
             starsList[16] = new Star("Rosalhague",17.58225,12.56,5,-167,5,-160,2.5,-150,-90);
+            starsList[17] = new Star("Rosalhague",17.58225,12.56,5,-167,5,-160,2.5,-150,-90);
+            starsList[18] = new Star("Rosalhague",17.58225,12.56,5,-167,5,-160,2.5,-150,-90);
+            starsList[19] = new Star("Rosalhague",17.58225,12.56,5,-167,5,-160,2.5,-150,-90);
 
         }else{
             //show northern star set
@@ -91,6 +94,9 @@ public class Star {
             starsList[14] = new Star("Aliphard",9.459788889,-8.658602778,115,-80,110,-85,102.5,-95,52);
             starsList[15] = new Star("Alpheca",15.57813889,26.71472222,5,75,5,60,15,65,0);
             starsList[16] = new Star("Rosalhague",17.58225,12.56,0,0,0,0,7,95,90);
+            starsList[17] = new Star("Pollux",7.75537884,28.02631031,0,0,0,0,7,95,90);
+            starsList[18] = new Star("Regulus",10.13957205,11.96719513,0,0,0,0,7,95,90);
+            starsList[19] = new Star("Antares",16.49012986,-26.43194608,0,0,0,0,7,95,90);
         }
         return starsList;
     }

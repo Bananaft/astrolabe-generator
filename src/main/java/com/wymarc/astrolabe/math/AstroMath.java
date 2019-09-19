@@ -414,11 +414,13 @@ public class AstroMath {
         int minutes;
         int seconds;
         String correction;
-
+        /*
         timeZone = (int)Math.abs(longitude/15.0);
         if((Math.abs(longitude) - (timeZone*15)) > 7.5 ){
             timeZone++;
         }
+        */
+        timeZone = 5;
         offset = (Math.abs(longitude) - (timeZone*15))*4;
         minutes = (int)offset;
         seconds = Math.abs((int)((offset-minutes)*60));

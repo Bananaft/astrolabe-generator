@@ -50,7 +50,7 @@ public class Star {
      */
     public static Star[] getStarsList(String hemiSphere){
 
-        Star[] starsList = new Star[20];
+        Star[] starsList = new Star[21];
 
         if (hemiSphere.equals("S")){
             // show southern star set - Note Declination is reversed for the southern projection
@@ -71,9 +71,9 @@ public class Star {
             starsList[14] = new Star("Spica",13.41986111,-11.16138889,0,0,0,0,80,-40,0);
             starsList[15] = new Star("Aliphard",9.459788889,-8.658602778,125,95,120,80,110,79,30);
             starsList[16] = new Star("Rosalhague",17.58225,12.56,5,-167,5,-160,2.5,-150,-90);
-            starsList[17] = new Star("Rosalhague",17.58225,12.56,5,-167,5,-160,2.5,-150,-90);
-            starsList[18] = new Star("Rosalhague",17.58225,12.56,5,-167,5,-160,2.5,-150,-90);
-            starsList[19] = new Star("Rosalhague",17.58225,12.56,5,-167,5,-160,2.5,-150,-90);
+            //starsList[17] = new Star("Rosalhague",17.58225,12.56,5,-167,5,-160,2.5,-150,-90);
+            //starsList[18] = new Star("Rosalhague",17.58225,12.56,5,-167,5,-160,2.5,-150,-90);
+            //starsList[19] = new Star("Rosalhague",17.58225,12.56,5,-167,5,-160,2.5,-150,-90);
 
         }else{
             //show northern star set
@@ -84,19 +84,20 @@ public class Star {
             starsList[4] = new Star("Procyon",7.655027778,5.225,55,-125,65,-120,50,-130,30);
             starsList[5] = new Star("Deneb",20.6905,45.28027778,-5,35,-5,50,-18,40,0);
             starsList[6] = new Star("Vega",18.61561111,38.78361111,5,90,5,70,7,60,90);
-            starsList[7] = new Star("Betelg",5.919527778,7.406944444,0,0,0,0,-3,-109,90);
+            starsList[7] = new Star("Betelgeuse",5.919527778,7.406944444,0,0,0,0,-3,-109,90);
             starsList[8] = new Star("Rigel",5.242277778,-8.201666667,-20,-135,-30,-135,-23,-137,-4);
             starsList[9] = new Star("Bellatrix",5.418833333,6.349722222,-30,-135,-45,-130,-55,-127,-18);
             starsList[10] = new Star("Markab",23.07936111,15.20525,-105,5,-95,5,-110,2,0);
-            starsList[11] = new Star("Aldeb",4.598666667,16.50916667,-5,-100,-5,-115,-25,-98,-40);
+            starsList[11] = new Star("Aldebaran",4.598666667,16.50916667,-5,-100,-5,-115,-25,-98,-40);
             starsList[12] = new Star("Spica",13.41986111,-11.16138889,130,70,130,50,127,47,90);
             starsList[13] = new Star("Alioth",12.90044444,55.95983333,35,-5,45,-5,30,-7,0);
-            starsList[14] = new Star("Aliphard",9.459788889,-8.658602778,115,-80,110,-85,102.5,-95,52);
-            starsList[15] = new Star("Alpheca",15.57813889,26.71472222,5,75,5,60,15,65,0);
-            starsList[16] = new Star("Rosalhague",17.58225,12.56,0,0,0,0,7,95,90);
+            starsList[14] = new Star("Alphard",9.459788889,-8.658602778,115,-80,110,-85,102.5,-95,52);
+            starsList[15] = new Star("Alphecca",15.57813889,26.71472222,5,75,5,60,15,65,0);
+            starsList[16] = new Star("Rasalhague",17.58225,12.56,0,0,0,0,7,95,90);
             starsList[17] = new Star("Pollux",7.75537884,28.02631031,0,0,0,0,7,95,90);
             starsList[18] = new Star("Regulus",10.13957205,11.96719513,0,0,0,0,7,95,90);
             starsList[19] = new Star("Antares",16.49012986,-26.43194608,0,0,0,0,7,95,90);
+            starsList[20] = new Star("Diphda",0.7264523,-17.98668410,0,0,0,0,7,95,90);
         }
         return starsList;
     }

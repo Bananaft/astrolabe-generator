@@ -346,8 +346,8 @@ public class BackPrintEngine {
         double angle;
         int i;
 
-        for(i=1; i<=21;i++){
-            angle = Math.toDegrees(Math.atan((double)i/7));
+        for(i=1; i<=30;i++){
+            angle = Math.toDegrees(Math.atan((double)i/10));
             out += "\n" + -angle + " rotate";
             out += "\n" + "newpath";
             out += "\n" + cotangentRadius + " 0 moveto";
@@ -355,7 +355,7 @@ public class BackPrintEngine {
             //out += "\n" + "0 0 moveto";
             //out += "\n" + "NormalFont5 setfont";
             //out = drawInsideCircularText(out, i.toString(), 5, 0, (cotangentRadius + 10));
-            if(i <= 12 || i == 14 || i == 16 || i == 18 || i == 21){
+            if(i <= 13 || i == 15 || i == 17 || i == 20 || i == 25 || i == 30){
                 out += "\n" + "NormalFont5 setfont";
                 out += EPSToolKit.drawInsideCircularText(Integer.toString(i), 5, 0, (cotangentRadius + 10));
             }

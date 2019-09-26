@@ -318,14 +318,14 @@ public class RulePrintEngine {
         if(myAstrolabe.getTopLeft() != 0){
             // mark the left arm with an arbitrary scale for reference
             double radius = myAstrolabe.getMaterRadius() - 67;
-            double pivotRadius = 25;
+            double pivotRadius = 0;
             double scaleLength = radius - pivotRadius;
-            double step = scaleLength/60.0; // 60 divisions
+            double step = scaleLength/100.0; // 60 divisions
 
             int h = 5;
             boolean label = false;
 
-            for (int i = 0; i < 61; i++){
+            for (int i = 0; i < 101; i++){
                 if((i == 0)||((i%5) == 0)){
                     h = 10;
                     label = true;

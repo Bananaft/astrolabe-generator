@@ -478,7 +478,7 @@ public class FrontPrintEngine {
             out += "\n" + "";
         }
         out += "\n" + "%% Set Clipping";
-        out += "\n" + "0 0 " + myAstrolabe.getCapricornRadius() + " 0 360 arc clip";
+        out += "\n" + "0 0 " + (myAstrolabe.getInnerLimbRadius()) + " 0 360 arc clip";
         out += "\n" + "";
         out += "\n" + "%% Find center of page and mark it";
         out += "\n" + "0 0 5 0 360 arc stroke";
